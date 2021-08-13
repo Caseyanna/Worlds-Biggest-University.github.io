@@ -2,6 +2,24 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+::selection {
+  background-color: #f44336;
+  color: rgb(135, 135, 228);
+}
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: #000000;
+}
+::-webkit-scrollbar-thumb:vertical {
+  width: 50px;
+  height: 100px;
+  background-color: grey;
+  border-radius: 10px;
 }
 .header {
   min-height: 100vh;
